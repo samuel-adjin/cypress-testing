@@ -1,0 +1,14 @@
+body{
+    background-color: #1cc5dc;
+    font-size: 16px;
+}
+
+
+.success{
+   
+    margin: 20% auto;
+    margin-left: 30%;
+    font-size: 2rem;
+    font-family: Poppins;
+    color: #fff;
+}

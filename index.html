@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Booking</title>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="layer">
+            <div class="form-fill">
+                <div class="userFields">
+                    <label for="">Name<span style="color:red">*</span></label>
+                    <input type="text" placeholder="Enter full name" required>
+
+                </div>
+                <div class="userFields">
+                    <label for="">Number of people<span style="color:red">*</span></label>
+                    <input type="number" placeholder="1" required>
+                </div>
+                <div class="userFields">
+                    <label for="">Choose Date<span style="color:red">*</span></label>
+                    <input type="date" placeholder="1" required>
+                </div>
+                <div class="userFields">
+                    <p>Specify type of trip<span style="color:red">*</span></p>
+                    <input type="radio" id="oneWay" name="trip" value="one way" class="trip">
+                    <label for="oneWay" class="tripLabel">One way</label><br>
+                    <input type="radio" id="round" name="trip" value="round trip" class="trip">
+                    <label for="round" class="tripLabel">Round trip</label><br>
+                </div>
+                <div class="userFields">
+                    <label for="">Comment</label>
+                    <textarea rows = "5" cols = "50" name = "comment"></textarea>                
+                    </div>
+                    <div class="userFields">
+                       <button>Submit</button>
+                    </div>
+            </div>
+
+            <div class="info">
+                MAKE YOUR RESERVATION
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("trip.jpg");
+  padding-top: 860px;
+  object-fit: cover;
+  background-color: red;
+}
+
+.form-fill {
+  width: 50%;
+  height: 120vh;
+  border-radius: 15px;
+  /* border: 2px solid red; */
+  margin: 30px 10px 50px 110px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-family: Poppins;
+}
+
+input {
+  width: 88%;
+  height: 8vh;
+  background-color: rgb(235, 236, 238);
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  font-size: 1.2rem;
+}
+
+.userFields {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.layer {
+  display: flex;
+  column-gap: 80px;
+  background-color: rgba(100, 147, 203, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-top: 200px;
+}
+
+.trip {
+  width: 5%;
+  height: 2vh;
+  padding-left: 15px;
+}
+
+.tripLabel {
+  display: inline;
+  font-size: 1rem;
+}
+p {
+  font-size: 1.2rem;
+  font-family: Poppins;
+}
+
+textarea {
+ 
+  line-height: 1.5;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(235, 236, 238);
+  font-size: 1.2rem;
+  resize: none;
+}
+
+button{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 8vh;
+    border: none;
+    outline: none;
+    background-color: rgb(52, 113, 219);
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.success{
+    background-color: #1cc5dc;
+    margin: 50% auto;
+    font-size: 2rem;
+    font-family: Poppins;
+    color: #fff;
+}
