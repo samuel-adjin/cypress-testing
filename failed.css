@@ -1,0 +1,14 @@
+body{
+    background-color: red;
+    font-size: 16px;
+}
+
+
+.failed{
+   
+    margin: 20% auto;
+    margin-left: 10%;
+    font-size: 2rem;
+    font-family: Poppins;
+    color: #fff;
+}

@@ -63,7 +63,7 @@ input {
   color: #fff;
   font-size: 3.5rem;
   font-weight: bolder;
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 .trip {
@@ -101,7 +101,7 @@ button{
     border: none;
     outline: none;
     background-color: rgb(52, 113, 219);
-    font-size: 1.2rem;
+   
     color: #fff;
     font-weight: bolder;
     cursor: pointer;
