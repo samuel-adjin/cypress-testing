@@ -1,13 +1,12 @@
 ///<reference types ="cypress"/>
 let url ='http://localhost/cypress%20test/';
-// const datePicker = document.querySelector("#date").value = "05-16-2021";
-// const setDatePicker = datePicker.value = "05-16-2021";
+
 
 describe("Test bus ticket form using localhost", ()=>{
 
 
      // test 1
-    it("Should be able to submit a successful submission when all fields are filled(specified trip is one way)", ()=>{
+    it("Should be able to submit a successful submission when all fields are filled(specified trip is one way", ()=>{
         cy.visit(url);
         cy.get('#userName').type("Samuel Adams Adjin");
         cy.get('#number').type("3")
@@ -28,7 +27,7 @@ describe("Test bus ticket form using localhost", ()=>{
     }
     )
              // test 3
-    it("Should be able to submit a successful submission when all fields are filled (specified trip is round trip)", ()=>{
+    it("Should be able to submit a successful submission when all fields are filled (specified trip is round trip", ()=>{
         cy.visit(url);
         cy.get('#userName').type("Samuel Adams Adjin");
         cy.get('#number').type("3")

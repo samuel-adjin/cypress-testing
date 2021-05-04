@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="layer">
+            <div class="form-fill">
+                <div class="userFields">
+                    <label for="">Username<span style="color:red">*</span></label>
+                    <input type="text"  id="userName">
+
+                </div>
+                <div class="userFields">
+                    <label for="">Password<span style="color:red">*</span></label>
+                    <input type="password"  id="pass">
+                </div>
+                <div class="userFields">
+                    <label for="">Confirm Password<span style="color:red">*</span></label>
+                    <input type="password" id="conPass">
+                </div>
+                <div class="userFields">
+                    <label for="">Email<span style="color:red">*</span></label>
+                    <input type="email" id="email">
+                </div>
+                <div class="userFields">
+                    <p>Type of Account<span style="color:red">*</span></p>
+                    <input type="radio" id="customer" name="account" value="customer" class="account">
+                    <label for="oneWay" class="tripLabel">Customer</label><br>
+                    <input type="radio" id="admin" name="account" value="admin" class="account">
+                    <label for="round" class="tripLabel">Admin</label><br>
+                </div>
+                       <button>Register</button>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

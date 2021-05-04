@@ -1,5 +1,5 @@
 const fields= document.querySelectorAll("input");
-console.log(fields)
+
 
 
 
@@ -10,7 +10,7 @@ const dateSelectedNode = fields[2]
 const oneWayNode = fields[3]
 const roundNode = fields[4]
 
-console.log(customerName)
+
 button.addEventListener("click",()=>{
     const custName = customerName.value;
     const numberOfPeople = numberOfPeopleNode.value;
